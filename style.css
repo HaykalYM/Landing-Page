@@ -1,106 +1,191 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0;
-  min-height: 100vh;
-}
-
-.header {
-  height: 72px;
-  background: #1F2937;
-  color: white;
+body{
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-weight: 900;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
-
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-}
-
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  gap: 625px;
+  padding-top: 32px;
   
-  border-radius: 25px;
-  background: white;
-  border-color: #3882f6;
-  padding: 20px;
-  width: 200px;
-  height: 150px;
-
+  
+  
 }
-
-/* SOLUTION */
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.header {
-  display: flex;
-  align-items: center;
-  padding: 0 16px;
-  font-size: 32px;
-  font-weight: 900;
-  height: auto;
-}
-
-.button{
-  padding: auto;
-}
-
-.body {
-  flex: 1;
-  display: flex;
-}
-
-.sidebar {
-  flex-shrink: 0;
-  padding: 16px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 16px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
+.header .header-left {
   font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 900; 
 }
 
-.container {
-  padding: 48px;
+  
+.header ul {
   display: flex;
-  flex-wrap: wrap;
   gap: 32px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
+.header a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
 
-.flex-container{
-  padding: 48px;
+}
+.Section-2 {
   display: flex;
-  flex-wrap: wrap;
-  gap: 32px;
+  justify-content:center;
+  gap: 200px;
+  background-color: #1F2937;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  
 }
-
-.card {
-  padding: 16px;
-  width: 300px;
+.left {
+  margin-left: 128px;
 }
+.left .head {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  width: 400px;
+  
+  
+}
+.left .description {
+  width: 500px;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+.right img {
+  margin-right: 128px;
+  height: 300px;
+}
+.button button {
+  background: #3882f6;
+  border-radius: 7px;
+  border-color: #3882f6;
+  font-weight: 600;
+  width: 120px;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 2px;
 
-.footer {
+
+}
+.Section-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 45px;
+}
+.Info {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+.fruits {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.desc img{
+  height: 150px;
+  width: 150px;
+  border: 5px solid #3882f6;
+  border-radius: 12px;
+  
+
+}
+.desc div {
+  margin-bottom: 120px;
+}
+.Section-4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top:120px;
+  background: #e5e7eb;
+  width: 100%;
+  
+}
+.head {
+  max-width: 1000px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  display: flex;
+  width: 850px;
+  justify-content: flex-end;
+  padding-left: 100px;
+}
+.auth {
+  font-size: 24px;
+  color:#1F2937;
+  font-weight: 900;
+  width: 1000px;
+}
+.author {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 100px;
+}
+.Section-5 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 120px;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3882f6;
+  height: 140px;
+  width: 1050px;
+  border-radius: 7px;
+  gap: 200px;
+  
+}
+.left0 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.left1 {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 500;
+}
+.left2 {
+  color:#e5e7eb
+}
+.button-1 button {
+  width: 120px;
+  background: #3882f6;
+  color: #F9FAF8;
+  font-size: 18px;
+  border-radius: 7px;
+  font-weight: 700;
+  border: 2px solid #F9FAF8;
+}
+.footer {
+  width: 100%;
+  background:#1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 30px   ;
+}
+.text {
+  color: #F9FAF8;
 }
